@@ -29,7 +29,7 @@
     "@vitest/coverage-c8": "^0.29.2",
     "jsdom": "^21.1.0",
     "playwright": "^1.31.2",
-    "vitest": "^0.29.2"
+    "vitest": "^0.29.2",
     "autoprefixer": "^10.4.13",
     "eslint-config-prettier": "^8.6.0",
     "postcss": "^8.4.21",
