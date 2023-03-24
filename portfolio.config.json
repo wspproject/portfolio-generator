@@ -1,9 +1,9 @@
 {
   "theme": {
-    "background": "bg-gradient-to-r from-white to-purple-200",
-    "title": "text-gray-900 font-bold text-5xl",
+    "background": "bg-gradient-to-r from-white to-purple-200 dark:from-gray-900 dark:to-purple-900",
+    "title": "text-gray-900 font-bold text-5xl dark:text-gray-200",
     "text": "text-gray-900",
     "links": "text-purple-600",
-    "buttons": "bg-purple-600"
+    "buttons": "bg-orange-600"
   }
 }
