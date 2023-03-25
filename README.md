@@ -1,8 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Project
+
+This project is a simple portfolio website built using Next.js. The main idea behind this project is to create a portfolio webpage where the content and styling can be modified in a single JSON file.
+
+By forking this repository and editing the configuration file, you can easily create your own portfolio website.
+
+## Technologies Used
+
+- Next.js
+- React.js
+- TailwindCSS
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, simply follow the steps below:
+
+- Fork the repository.
+- Clone the repository to your local machine.
+- Install the dependencies using npm install.
+- Edit the `portfolio.config.json` file to add your own content and styling.
+- Run the project using npm run dev.
 
 ```bash
 npm run dev
@@ -14,25 +30,12 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You can start editing the page by modifying `portfolio.config.json`.
 
 ## Deploy on Vercel
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwspproject%2Fportfolio-generator.git&project-name=portfoliogenerator&repository-name=portfolio-generator)
+
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
