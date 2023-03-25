@@ -1,0 +1,82 @@
+{
+  "title": "WSPProject Portfolio",
+  "favicon": "/favicon.ico",
+  "viewport": "width=device-width, initial-scale=1",
+  "charSet": "utf-8",
+  "author": "WSPProject",
+  "copyright": "WSPProject",
+  "robots": "follow",
+  "keywords": "portfolio, configurable portfolio page, Next.js, React.js, TailwindCSS, TypeScript",
+  "description": "This is a simple portfolio website built using Next.js, where the content and styling can be modified in a single JSON file.",
+  "ogtitle": "WSPPRoject: Portfolio - Next.js, React.js, TailwindCSS",
+  "ogdescription": "This is a simple portfolio website built using Next.js, where the content and styling can be modified in a single JSON file.",
+  "ogurl": "/",
+  "ogimage": "/images/wspproject.png",
+  "ogtype": "website",
+  "twittercard": "summary_large_image",
+  "twitterurl": "/",
+  "twittertitle": "WSPPRoject: Portfolio - Next.js, React.js, TailwindCSS",
+  "twitterdescription": "This is a simple portfolio website built using Next.js, where the content and styling can be modified in a single JSON file.",
+  "twitterimage": "/images/wspproject.png",
+  "msapplicationTileColor": "#ffffff",
+  "themeColor": "#ffffff",
+  "oglocale": "pl_PL",
+  "appleTouchIcons": [
+    {
+      "size": "57x57",
+      "href": "/images/favicon/apple-icon-57x57.png"
+    },
+    {
+      "size": "60x60",
+      "href": "/images/favicon/apple-icon-60x60.png"
+    },
+    {
+      "size": "72x72",
+      "href": "/images/favicon/apple-icon-72x72.png"
+    },
+    {
+      "size": "76x76",
+      "href": "/images/favicon/apple-icon-76x76.png"
+    },
+    {
+      "size": "114x114",
+      "href": "/images/favicon/apple-icon-114x114.png"
+    },
+    {
+      "size": "120x120",
+      "href": "/images/favicon/apple-icon-120x120.png"
+    },
+    {
+      "size": "144x144",
+      "href": "/images/favicon/apple-icon-144x144.png"
+    },
+    {
+      "size": "152x152",
+      "href": "/images/favicon/apple-icon-152x152.png"
+    },
+    {
+      "size": "180x180",
+      "href": "/images/favicon/apple-icon-180x180.png"
+    }
+  ],
+  "androidIcons": [
+    {
+      "size": "192x192",
+      "href": "/images/favicon/android-icon-192x192.png"
+    },
+    {
+      "size": "32x32",
+      "href": "/images/favicon/favicon-32x32.png"
+    },
+    {
+      "size": "96x96",
+      "href": "/images/favicon/favicon-96x96.png"
+    },
+    {
+      "size": "16x16",
+      "href": "/images/favicon/favicon-16x16.png"
+    }
+  ],
+  "manifest": "/images/favicon/manifest.json",
+  "msApplicationTileImage": "/images/favicon/ms-icon-144x144.png"
+}
