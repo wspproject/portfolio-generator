@@ -1,3 +1,4 @@
+import { ThemeSwitch } from "@/components/ThemeSwitch";
 import Head from "next/head";
 // import { Inter } from '@next/font/google'
 
@@ -18,7 +19,10 @@ export default function Home() {
       </Head>
       <nav className="relative z-10 flex h-20 items-center justify-between px-20">
         <div>Logo</div>
-        <button>Contact</button>
+        <div className="flex gap-8">
+          <ThemeSwitch />
+          <button>Contact</button>
+        </div>
       </nav>
       <main
         className={`relative z-0 -mt-20 flex min-h-screen flex-grow justify-between px-20 pt-20`}
