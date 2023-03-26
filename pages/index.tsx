@@ -1,9 +1,5 @@
 import { ThemeSwitch } from "@/components/ThemeSwitch";
-import Head from "next/head";
-// import { Inter } from '@next/font/google'
-
-// const inter = Inter({ subsets: ['latin'] })
-
+import { HeroButtons } from "../components/HeroButtons/HeroButtons";
 import data from "../portfolio.config.json";
 
 export default function Home() {
@@ -32,14 +28,7 @@ export default function Home() {
             <br />
             Next.js, React, Node.js, TypeScrpt, GraphQL, Express, MongoDB.
           </p>
-          <div className="flex gap-4">
-            <a className={`block rounded-md bg-black py-2 px-4 text-white ${theme.buttons}`}>
-              Resume
-            </a>
-            <a className={`block rounded-md bg-black py-2 px-4 text-white ${theme.buttons}`}>LN</a>
-            <a className={`block rounded-md bg-black py-2 px-4 text-white ${theme.buttons}`}>YT</a>
-            <a className={`block rounded-md bg-black py-2 px-4 text-white ${theme.buttons}`}>GH</a>
-          </div>
+          <HeroButtons />
         </div>
         <div>image</div>
       </main>
