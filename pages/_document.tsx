@@ -1,5 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import { DefaultMetatags } from "@/components/metatags/DefaultMetatags";
+import { DefaultMetatags } from "../components/metatags";
+
 export default function Document() {
   return (
     <Html lang="en">

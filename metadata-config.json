@@ -8,19 +8,24 @@
   "robots": "follow",
   "keywords": "portfolio, configurable portfolio page, Next.js, React.js, TailwindCSS, TypeScript",
   "description": "This is a simple portfolio website built using Next.js, where the content and styling can be modified in a single JSON file.",
-  "ogtitle": "WSPPRoject: Portfolio - Next.js, React.js, TailwindCSS",
-  "ogdescription": "This is a simple portfolio website built using Next.js, where the content and styling can be modified in a single JSON file.",
-  "ogurl": "/",
-  "ogimage": "/images/wspproject.png",
-  "ogtype": "website",
-  "twittercard": "summary_large_image",
-  "twitterurl": "/",
-  "twittertitle": "WSPPRoject: Portfolio - Next.js, React.js, TailwindCSS",
-  "twitterdescription": "This is a simple portfolio website built using Next.js, where the content and styling can be modified in a single JSON file.",
-  "twitterimage": "/images/wspproject.png",
+  "ogData": {
+    "title": "WSPPRoject: Portfolio - Next.js, React.js, TailwindCSS",
+    "description": "This is a simple portfolio website built using Next.js, where the content and styling can be modified in a single JSON file.",
+    "url": "/",
+    "image": "/images/wspproject.png",
+    "type": "website",
+    "locale": "pl_PL"
+  },
+  "twitterData": {
+    "card": "summary_large_image",
+    "url": "/",
+    "title": "WSPPRoject: Portfolio - Next.js, React.js, TailwindCSS",
+    "description": "This is a simple portfolio website built using Next.js, where the content and styling can be modified in a single JSON file.",
+    "image": "/images/wspproject.png"
+  },
   "msapplicationTileColor": "#ffffff",
   "themeColor": "#ffffff",
-  "oglocale": "pl_PL",
+
   "appleTouchIcons": [
     {
       "size": "57x57",
