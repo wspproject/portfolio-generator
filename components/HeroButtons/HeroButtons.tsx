@@ -20,7 +20,7 @@ export const HeroButtons = () => {
   }
 
   return (
-    <div className="flex gap-4">
+    <div className="flex max-w-xs flex-col gap-4 sm:max-w-none sm:flex-row">
       {buttonsData?.map(({ href, content, svgIcon, svgIconDark, alt }) => (
         <IconButton
           key={`${content}--${href}`}
