@@ -1,0 +1,30 @@
+{
+  "iconProps": { "height": 40 },
+  "buttonsData": [
+    {
+      "href": "https://google.com",
+      "content": "Resume",
+      "svgIcon": "/images/icons/resume.svg",
+      "svgIconDark": "/images/icons/resume_dark.svg",
+      "alt": "Resume icon"
+    },
+    {
+      "href": "https://linkedin.com",
+      "svgIcon": "/images/icons/linkedin.svg",
+      "svgIconDark": "/images/icons/linkedin_dark.svg",
+      "alt": "LinkedIn icon"
+    },
+    {
+      "href": "https://youtube.com",
+      "svgIcon": "/images/icons/youtube.svg",
+      "svgIconDark": "/images/icons/youtube_dark.svg",
+      "alt": "YouTube icon"
+    },
+    {
+      "href": "https://github.com",
+      "svgIcon": "/images/icons/github.svg",
+      "svgIconDark": "/images/icons/github_dark.svg",
+      "alt": "GitHub icon"
+    }
+  ]
+}
