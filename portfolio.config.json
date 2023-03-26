@@ -4,6 +4,6 @@
     "title": "text-gray-900 font-bold text-5xl dark:text-gray-200",
     "text": "text-gray-900",
     "links": "text-purple-600",
-    "buttons": "bg-orange-600"
+    "buttons": "dark:text-black text-white dark:bg-white bg-black "
   }
 }
