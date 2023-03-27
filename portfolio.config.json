@@ -1,4 +1,82 @@
 {
+  "pageName": "WspProject",
+  "navigation": {
+    "contactButton": {
+      "content": "contact me",
+      "className": ""
+    },
+    "hamburgerButton": {
+      "src": "/public/hamburger.svg",
+      "className": "bg-gray-400"
+    }
+  },
+  "main": {
+    "hi": [
+      {
+        "content": "HI, my name is Wsp Project",
+        "className": "text-black text-4xl"
+      }
+    ],
+    "about": [
+      {
+        "content": "I’m open minded, all-round software developer, with main focus on",
+        "className": "text-gray-900"
+      },
+      {
+        "content": "Next.js, React, Node.js, TypeScrpt, GraphQL, Express, MongoDB.",
+        "className": "text-purple-600"
+      }
+    ],
+    "src": "/public/you.png",
+    "buttons": [
+      {
+        "src": "/public/page.svg",
+        "redirect": "/public/resume.pdf",
+        "content": "",
+        "className": ""
+      },
+      {
+        "src": "/public/linkedin.svg",
+        "redirect": "https://www.linkedin.com/",
+        "content": "",
+        "className": ""
+      },
+      {
+        "src": "/public/youtube.svg",
+        "redirect": "https://www.youtube.com/",
+        "content": "",
+        "className": ""
+      },
+      {
+        "src": "/public/github.svg",
+        "redirect": "https://github.com/",
+        "content": "",
+        "className": ""
+      }
+    ]
+  },
+  "footer": {
+    "about": [
+      {
+        "content": "Found an error on the website?",
+        "className": "bg-black"
+      },
+      {
+        "content": "Open an issue on GitHub!",
+        "redirect": "https://github.com/wspproject/portfolio-generator/issues",
+        "className": "text-purple-600"
+      }
+    ]
+  },
+  "contactPopUp": {
+    "title": {
+      "content": "You can reach me by:",
+      "redirect": "https://www.linkedin.com/",
+      "mail": "contact@wspproject.com",
+      "phone": "11 123 465 789"
+    },
+    "src": "/public/contact-pop-up.svg"
+  },
   "theme": {
     "background": "bg-gradient-to-r from-white to-purple-200 dark:from-gray-900 dark:to-purple-900",
     "title": "text-gray-900 font-bold text-5xl dark:text-gray-200",
